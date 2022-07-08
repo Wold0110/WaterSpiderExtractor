@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterSpiderExtractor", "WaterSpiderExtractor\WaterSpiderExtractor.csproj", "{A50A20E9-4B8C-4FE0-A2A2-E3FC97C653A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A50A20E9-4B8C-4FE0-A2A2-E3FC97C653A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50A20E9-4B8C-4FE0-A2A2-E3FC97C653A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50A20E9-4B8C-4FE0-A2A2-E3FC97C653A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50A20E9-4B8C-4FE0-A2A2-E3FC97C653A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD31657C-2BA7-45CD-AD30-3D8ED46D34B2}
+	EndGlobalSection
+EndGlobal
