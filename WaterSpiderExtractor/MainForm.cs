@@ -62,8 +62,8 @@ namespace WaterSpiderExtractor
         List<WaterspiderRecord> GetData(string from, string to)
         {
             List<WaterspiderRecord> result = new List<WaterspiderRecord>();
-            //SELECT * FROM `train_records` WHERE `tol` >= '2022-06-01' AND `ig` <= '2022-06-30' ORDER BY `tol`
-            string select = $"SELECT * FROM `train_records` WHERE `tol` >= '{from}' AND `ig` <= '{to}' ORDER BY `tol`";
+            //SELECT * FROM `train_records` WHERE `tol` >= '2022-06-01' AND DATE(`ig`) <= '2022-06-30' ORDER BY `tol`
+            string select = $"SELECT * FROM `train_records` WHERE `tol` >= '{from}' AND DATE(`ig`) <= '{to}' ORDER BY `tol`";
             MySqlCommand selectCMD = new MySqlCommand(select, waterspider);
             MySqlDataReader rdr = selectCMD.ExecuteReader();
 
